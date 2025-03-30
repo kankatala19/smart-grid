@@ -1,0 +1,139 @@
+Short-term Load Forecasting Method of Smart Grid using DNN and LSTM
+
+Overview
+
+This project presents a hybrid forecasting method leveraging Deep Neural Networks (DNN) and Long Short-Term Memory (LSTM) networks to improve the accuracy of short-term load forecasting in smart grids. The proposed approach captures both non-linear relationships and temporal dependencies in load data, ensuring more reliable energy distribution and grid stability.
+
+Table of Contents
+
+Abstract
+
+Literature Survey
+
+Problems in Existing System
+
+Proposed System
+
+Objectives
+
+Project Domain
+
+Requirement Analysis
+
+System Architecture
+
+Methodology
+
+Results & Analysis
+
+Team
+
+Abstract
+
+In the evolving landscape of smart grids, accurate short-term load forecasting is critical for energy optimization. Our approach integrates DNNs for feature learning and LSTMs for sequence modeling, improving prediction accuracy. Preprocessing techniques such as normalization and decomposition enhance data quality. The hybrid model achieves robust forecasting by combining static and dynamic aspects of the data.
+
+Literature Survey
+
+Lee, D.: Developed a wind power forecasting method combining Gaussian processes and neural networks.
+
+Kosek, A. M.: Proposed anomaly detection for smart grids using ensemble regression.
+
+Abuella, M.: Created a hybrid model for solar power forecasting using Random Forest and Support Vector Regression (SVR).
+
+Problems in Existing System
+
+Inadequate feature learning in traditional models.
+
+Poor handling of temporal dependencies.
+
+Limited robustness in standalone neural networks.
+
+Lack of integration between different architectures.
+
+Poor real-world performance of traditional models.
+
+Proposed System
+
+Hybrid Approach: Combines DNN and LSTM to leverage their strengths.
+
+Enhanced Preprocessing: Uses normalization and decomposition techniques.
+
+Improved Prediction Accuracy: Outperforms standalone methods.
+
+Scalability and Efficiency: Suitable for varying datasets and smart grid environments.
+
+Objectives
+
+Improve short-term load forecasting accuracy.
+
+Capture complex patterns and dependencies in data.
+
+Optimize data preprocessing for better input quality.
+
+Ensure computational efficiency for real-time applications.
+
+Project Domain
+
+Domain: Smart Grid Technology, Machine Learning, and Data AnalyticsFocus: Short-Term Load Forecasting (STLF) using DNN and LSTM models.
+
+Requirement Analysis
+
+Functional Requirements
+
+Data ingestion and preprocessing
+
+Feature extraction
+
+Hybrid model integration
+
+Forecasting output generation
+
+Performance evaluation
+
+Non-functional Requirements
+
+Scalability, reliability, usability, security, maintainability.
+
+Software Requirements
+
+OS: Windows, Linux, macOS
+
+Programming: Python, SQL
+
+Libraries: TensorFlow, Keras, Scikit-learn
+
+IDEs: PyCharm, Jupyter Notebook, VS Code
+
+Hardware: Minimum 16GB RAM, SSD 500GB, multi-core processor
+
+System Architecture
+
+Data Collection: Gather load, weather, and external data.
+
+Preprocessing: Normalize, decompose, and clean data.
+
+Model Training: Train DNN and LSTM models.
+
+Ensemble Prediction: Combine DNN and LSTM outputs.
+
+Evaluation: Use RMSE, MSE, MAE, and R² metrics.
+
+Methodology
+
+Data Collection: Historical load data, weather conditions, smart grid sensors.
+
+Preprocessing: Normalization, decomposition, handling missing values.
+
+Feature Extraction: DNN to capture complex interactions.
+
+Temporal Modeling: LSTM for sequence dependency modeling.
+
+Results & Analysis
+
+DNN + LSTM Model Performance: Faster training convergence, improved generalization.
+
+Training Accuracy: Rapid improvement in initial epochs.
+
+Validation Accuracy: Plateaued early but maintained steady performance.
+
+Less Overfitting: Balanced fit compared to standalone models.
